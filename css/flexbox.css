@@ -1,0 +1,49 @@
+*{ box-sizing: border-box } 
+body
+{     
+	  
+	margin: 0; 
+     /* Atur Tinggi Minimal menjadi tinggi viewport/browser */     
+    min-height: 100vh; 
+     /* Jadiin Flex Container */     
+    display: flex; 
+     /* Atud direction menjadi column */     
+    flex-direction: column; 
+}
+
+/*Container*/
+main
+{
+	display: flex;
+	flex: 1;
+	margin-top:200px;
+	
+}
+/* flex item */
+.aboutme
+{
+	flex: 1;
+	background-color:#f3f3f3;
+	
+}
+article
+{
+	flex:3;
+	margin: 2px 8px 2px 8px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+/* Gambar */
+.saya
+{
+	width: 45%;
+}
+.sayano
+{
+	width: 30%;
+}
+.del
+{
+	width: 400px;
+	height: 200px;
+}
+

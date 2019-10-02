@@ -1,0 +1,84 @@
+/**
+  Copyright 2012 Michael Morris-Pearce
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program. If not, see <http://www.gnu.org/licenses/>.
+*/
+
+audio {
+    display: none;
+}
+
+.piano-javascript {
+    border: 3px solid #f88;
+    display: block;
+}
+
+.piano {
+    padding: 0px;
+    width: 100%;
+}
+
+.piano-container,
+.piano-javascript {
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.piano-keys {
+    word-spacing: 0;
+    letter-spacing: 0;
+    font-size: 1;
+}
+
+.piano-sustain {
+    color: black;
+}
+
+.piano-white,
+.piano-black {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0;
+    float: left;
+}
+
+.piano-white,
+.piano-black-raised {
+    border-radius: 2px;
+    border-color: #222;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    cursor: pointer;
+}
+
+.piano-white {
+    width: 27px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+.piano-black {
+    width: 0px;
+    height: 100px;
+}
+
+.piano-black-raised {
+    width: 16px;
+    height: 70px;
+    position: relative;
+    left: -10px;
+    background-color: black;
+}

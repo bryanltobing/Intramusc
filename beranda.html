@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Resize -->
+    <meta name="description" content="Musik yang terkonsentrasi dengan Musik Tradisional Indonesia"><!--Description-->
+    <title>InTraMusc</title><!--judul page-->
+    <link rel="stylesheet" href="css/navbar.css"><!-- css saya --->
+    <link rel="stylesheet" href="css/csskami.css"><!-- css kami selain navbar -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"><!--bootstrap 1 -->
+    <link rel="stylesheet" href="css/font-awesome.min.css"><!--untuk lambang sosmed -->
+    <link rel="stylesheet" href="fonts/stylesheet.css"> <!-- untuk font -->
+    <link rel="stylesheet" href="css/responsive.css" /><!-- untuk css yang responsive -->
+    <link rel="stylesheet" href="css/piano.css"/><!-- css untuk tampilan pada piano ny -->
+    <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script><!--untuk piano--->
+    <script text="text/javascript" src="js/piano.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js">/* library jquery untuk fungsi javascript jquery -->*/
+
+    </script>
+
+  </head>
+  <body style="background-color:#f4f8fb;">
+    <!-- NAVIGASI -->
+    <nav>
+      <div class="container-fluid">
+        <div class="nav-top clearfix">
+          <div class="logo">
+            <a><img src="img/1.png" width="400" /></a>
+          </div>
+
+          <div class="head_top_social pull-right">
+            <ul class="list-inline">
+              <li><a href="masukan.html"><i class="fa fa-instagram"></i>@intramusc_</a></li>
+              <li><a href="masukan.html"><i class="fa fa-phone"></i>085358172521</a></li>
+              <li class="top_socail">
+                <a href="masukan.html"><i class="fa fa-instagram"></i></a>
+                <a href="masukan.html"><i class="fa fa-facebook"></i></a>
+                <a href="masukan.html"><i class="fa fa-google-plus"></i></a>
+                <a href="masukan.html"><i class="fa fa-whatsapp"></i></a>
+              </li>
+            </ul>
+          </div>
+
+          <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+              <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="main-nav navbar-collapse collapse">
+        <div class="container">
+          <div class="minilogo">
+            <a href="" class="navbar-brand"><img src="img/Logo2.png" alt="Logo" /></a>
+          </div>
+          <ul class="nav nav-justified">
+            <li><a class="active" href="beranda.html">BERANDA</a></li>
+            <li><a href="artikel all/artikel.html">ARTIKEL</a></li>
+            <li><a href="intramusc.html">INTRAMUSC</a></li>
+            <li><a href="kontak.html">KONTAK</a></li>
+            <li><a href="masukan.html">MASUKAN</a></li>
+            <li><a href="galeri.html">GALERI</a></li>
+            <li>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <button style=" color : white; background-color: transparent; border:none; margin-top:10px;" type="button"  data-toggle="modal" data-target="#myModal">
+                <span class="glyphicon glyphicon-search">
+                </span>
+              </button>
+              <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-lg">
+
+      <!-- Modal content-->
+      <br>
+      <br>
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2>Cari Provinsi</h2>
+          <p>Ketik Disini Untuk Mencari Provinsi</p>
+          <input class="form-control" id="myInput" type="text" placeholder="Cari..">
+          <br>
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Nama Provinsi</th>
+                  <th>Ibu Kota</th>
+                </tr>
+                </thead>
+                <tbody id="myTable">
+                  <!--1-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/aceh.html">Aceh</a></td>
+                    <td>Banda Aceh</td>
+                  </tr>
+                  <!--2-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/sumaterautara.html">Sumatera Utara</a></td>
+                    <td>Medan</td> 
+                  </tr>
+                  <!--3-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/sumaterabarat.html">Sumatera Barat</a></td>
+                    <td>Padang</td>
+                  </tr>
+                  <!--4-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/riau.html">Riau</a></td>
+                    <td>Pekan Baru</td>
+                  </tr>
+                  <!--5-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/jambi.html">Jambi</a></td>
+                    <td>Jambi</td>
+                  </tr>
+                  <!--6-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/sumateraselatan.html">Sumatera Selatan</a></td>
+                    <td>Palembang</td>
+                  </tr>
+                  <!--7-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/bengkulu.html">Bengkulu</a></td>
+                    <td>Bengkulu</td>
+                  </tr>
+                  <!--8-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/lampung.html">Lampung</a></td>
+                    <td>Bandar Lampung</td>
+                  </tr>
+                  <!--9-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/bangkabelitung.html">Bangka Belitung</a></td>
+                    <td>Pangkal Pinang</td>
+                  </tr>
+                  <!--10-->
+                  <tr>
+                    <td><a href="provinsi/Sumatera/kepulauanriau.html">Kepulauan Riau</a></td>
+                    <td>Tanjung Pinang</td>
+                  </tr>
+                  <!--11-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/Jakarta.html">DKI Jakarta</a></td>
+                    <td>Jakarta</td>
+                  </tr>
+                  <!--12-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/jawabarat.html">Jawa Barat</a></td>
+                    <td>Bandung</td>
+                  </tr>
+                  <!--13-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/jawatengah.html">Jawa Tengah</a></td>
+                    <td>Semarang</td>
+                  </tr>
+                  <!--14-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/yogyakarta.html">DI Yogyakarta</a></td>
+                    <td>Yogyakarta</td>
+                  </tr>
+                  <!--15-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/jawatimur.html">Jawa Timur</a></td>
+                    <td>Surabaya</td>
+                  </tr>
+                  <!--16-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/banten.html">Banten</a></td>
+                    <td>Serang</td>
+                  </tr>
+                  <!--17-->
+                  <tr>
+                    <td><a href="provinsi/JawaBali/bali.html">Bali</a></td>
+                    <td>Denpasar</td>
+                  </tr>
+                  <!--18-->
+                  <tr>
+                    <td><a href="provinsi/NusaTenggara/nusatenggarabarat.html">Nusa Tenggara Barat</a></td>
+                    <td>Mataram</td>
+                  </tr>
+                  <!--19-->
+                  <tr>
+                    <td><a href="provinsi/NusaTenggara/nusatenggaratimur.html">Nusa Tenggara Timur</a></td>
+                    <td>Kupang</td>
+                  </tr>
+                  <!--20-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantanbarat.html">Kalimantan Barat</a></td>
+                    <td>Pontianak</td>
+                  </tr>
+                  <!--21-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantantengah.html">Kalimantan Tengah</a></td>
+                    <td>Palangkaraya</td>
+                  </tr>
+                  <!--22-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantanselatan.html">Kalimantan Selatan</a></td>
+                    <td>Banjarmasin</td>
+                  </tr>
+                  <!--23-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantantimur.html">Kalimantan Timur</a></td>
+                    <td>Samarinda</td>
+                  </tr>
+                  <!--24-->
+                  <tr>
+                    <td><a href="provinsi/kalimantan/kalimantanutara.html">Kalimantan Utara</a></td>
+                    <td>Tanjung Selor</td>
+                  </tr>
+                  <!--25-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesiutara.html">Sulawesi Utara</a></td>
+                    <td>Manado</td>
+                  </tr>
+                  <!--26-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesitengah.html">Sulawesi Tengah</a></td>
+                    <td>Palu</td>
+                  </tr>
+                  <!--27-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesiselatan.html">Sulawesi Selatan</a></td>
+                    <td>Makassar</td>
+                  </tr>
+                  <!--28-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesitenggara.html">Sulawesi Tenggara</a></td>
+                    <td>Kendari</td>
+                  </tr>
+                  <!--29-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/gorontalo.html">Gorontalo</a></td>
+                    <td>Gorontalo</td>
+                  </tr>
+                  <!--30-->
+                  <tr>
+                    <td><a href="provinsi/sulawesi/sulawesibarat.html">Sulawesi Barat</a></td>
+                    <td>Mamuju</td>
+                  </tr>
+                  <!--31-->
+                  <tr>
+                    <td><a href="provinsi/PapuaMaluku/maluku.html">Maluku</a></td>
+                    <td>Ambon</td>
+                  </tr>
+                  <!--32-->
+                  <tr>
+                    <td><a href="provinsi/PapuaMaluku/malukuutara.html">Maluku Utara</a></td>
+                    <td>Sofifi</td>
+                  </tr>
+                  <!--33-->
+                  <tr>
+                    <td><a href="provinsi/PapuaMaluku/papua.html">Papua</a></td>
+                    <td>Jayapura</td>
+                  </tr>
+                  <!--34-->
+                  <tr>
+                    <td><a href="provinsi/PapuaMaluku/papuabarat.html">Papua Barat</a></td>
+                    <td>Manokwari</td>
+                  </tr>
+                </tbody>
+            </table>
+
+              <p>Keep Smile</p>
+
+                        <script>
+                        $(document).ready(function(){
+                          $("#myInput").on("keyup", function() {
+                            var value = $(this).val().toLowerCase();
+                            $("#myTable tr").filter(function() {
+                              $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                            });
+                          });
+                        });
+                        </script>
+
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+      </div>
+      </div>
+    </div>
+  </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- body setelah navigasi --->
+    <!-- Carousel-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indikator-->
+      <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <!--Pembungkus untuk slidenya-->
+      <div class="carousel-inner">
+          <!-- Slide 1-->
+          <div class="item active">
+              <img src="img/slide1.jpg" width="100%">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Musik Tradisional</h1>
+                <p>Indonesia</p>
+              </div>
+          </div>
+          <!-- Slide 2-->
+          <div class="item">
+              <img src="img/slide4.jpg" width="100%">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 style=""> Musik Tradisional Indonesia </h1>
+                <p> Jelajah Musik Indonesia </p>
+              </div>
+          </div>
+          <!-- Slide 3-->
+          <div class="item">
+              <img src="img/slide3.jpg" width="100%">
+              <div class="carousel-caption d-none d-md-block">
+                <h1> Penghargaan Musik Indonesia </h1>
+                <p> Musik Indonesia Mendunia </p>
+              </div>
+          </div>
+          <!-- Slide 4 -->
+          <div class="item">
+              <img src="img/slide6.jpg" width="100%">
+              <div class="carousel-caption d-none d-md-block">
+                <h1> Keindahan Musik Tradisional </h1>
+                <p> Indonesia </p>
+              </div>
+          </div>
+      </div>
+      <!-- Untuk mengontrol ke kanan dan kekiri -->
+          <!-- Control Previous-->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+          <!-- Control Next-->
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <!-- Setelah Carouseel -->
+    <!-- besar 1-->
+    <div class="Besar1" style="width:100%;">
+        <div style="padding:150px; background-color: silver;margin-top:0px">
+            <h1 class="text-center">Musik Tradisional</h1>
+                <div class="text-center">
+                    <p style="text-align: center;">
+                      Musik tradisional adalah musik yang hidup di masyarakat secara turun temurun, dipertahankan sebagai sarana hiburan. Tiga komponen yang saling memengaruhi diantaranya Seniman, musik itu sendiri dan masyarakat penikmatnya. Sedangkan maksudnya untuk memper-satukan persepsi antara pemikiran seniman dan masyarakat tentang usaha bersama dalam mengembangkan dan melestarikan seni musik tradisional. Menjadikan musik tradisional sebagai perbendaharaan seni di masyarakat sehingga musik tradisional lebih menyentuh pada sektor komersial umum.
+
+                      Kegiatan ini diharapkan mampu memberi kontribusi bagi peserta juga kepada masyarakat luas sehingga musik tradisional dapat berperan sebagai hiburan untuk menjalankan bisnis para pengusaha. Musik Tradisional juga adalah musik yang berkembang secara tradisional di kalangan suku-suku tertentu.
+                    </p>
+                </div>
+        </div>
+    </div>
+
+    <!-- Container untuk galery dan award-->
+    <div class="container" style="background-color: #f4f8fb;margin-top:20px;">
+      <!-- Preview Galeri -->
+      <div class="col-sm-5 col-md-5" style="background-color: #f3f3f3;">
+        <center>
+          <h2> GALERI </h2>
+          <p style="color:gray;"><i>Preview</i></p>
+          <a href="galeri.html">
+            <button id="tombolgaleri" class="btn-default" style="background-color: #032f3e;color: white;">Klik Disini</button>
+          </a>
+          <br><br>
+        </center>
+        <!-- Galeri Preview 1-->
+              <div class="row"><!-- baris 1-->
+                <div class="col-md-6">
+                  <div class="thumbnail">
+                    <a href="galeri.html">
+                      <img src="img/galeripreview/galeri1.jpg">
+                    </a>
+                    <div class="caption">Alat Musik Tradisional</div>
+                  </div>
+                </div>
+        <!-- Galeri Preview 2-->
+                <div class="col-md-6">
+                  <div class="thumbnail">
+                    <a href="galeri0.html">
+                      <img src="img/galeripreview/galeri2.jpg">  
+                    </a>
+                    <div class="caption">Lestari Alat Musik Tradisional</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row"><!-- baris 2-->
+        <!-- Galeri Preview 3-->        
+                <div class="col-md-6">
+                  <div class="thumbnail">
+                    <a href="galeri1.html">
+                      <img src="img/galeripreview/galeri3.png">  
+                    </a>
+                    <div class="caption">Indahnya Musik Tradisional</div>
+                  </div> 
+                </div>
+        <!-- Galeri Preview 4-->        
+                <div class="col-md-6">
+                  <div class="thumbnail">
+                    <a href="galeri2.html">
+                      <img src="img/galeripreview/galeri4.jpg">        
+                    </a>
+                    <div class="caption">Penghargaan Musik Tradisional Indonesia</div>
+                  </div>
+                </div>
+              </div>
+        
+      </div>
+      <!-- Award atau penghargaan -->
+      <div class="col-sm-offset-2 col-md-offset-2  col-sm-5 col-md-5" style="background-color: #f3f3f3;">
+        <center>
+          <h2>PENGHARGAAN</h2>
+          <p style="color:gray;"><i>Preview</i></p>
+          <a href="artikel all/artikel.html">
+            <button id="tombolgaleri" class="btn-default" style="background-color: #032f3e;color: white;">Artikel</button>
+          </a>
+          <br><br>
+        </center>
+        <p align="justify">
+          London, (Antara Sumbar) - Duta Besar RI untuk Konfederasi Swiss dan Keharyapatihan Liechtenstein Linggawaty Hakim menyerahkan "Ambassador Award" kepada kelompok musik Angklung Pada Suka yang puluhan tahun berjasa mempromosikan musik tradisional Indonesia di Swiss.
+          Penghargaan itu diberikan kepada kelompok Angklung Pada Suka yang didirikan di Zrich, Swiss, sejak 30 Januari 1980, dengan 23 anggota yang mayoritas merupakan warga Swiss, keterangan Pensosbud KBRI Bern kepada Antara London, Jumat.
+          "Ambassador Award" itu, menurut siaran pers dari KBRI Bern, Senin (13/11), diberikan pada resepsi bertepatan peresmian Pusat Pelatihan dan Pertunjukan Gamelan "Center for Training and Performance of Gamelan" di Sion, Swiss, baru-baru ini.
+          Selama 37 tahun kelompok Angklung Pada Suka berdiri, telah mengadakan sejumlah konser di negara akreditasi, termasuk konser di Konsulat Jenderal Swiss di Bali tahun 2013. Pemasukan yang diperoleh dari konser-konsernya. 
+        </p>
+        <div>
+          <a href="artikel all/penghargaan.html" >Baca Lebih Legkap</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- besar 2-->
+    <div class="besar2" style="margin-bottom:50px; margin-top:50px">
+        <div style="padding:150px; background-color: #f3f3f3;margin-top:0px">
+            <h1 class="text-center">Mengapa Musik Tradisional?</h1>
+                <div class="text-center">
+                    <p>Pada sekarang ini mungkin tidak banyak dari kita yang mengetahui apa itu musik tradisional Indonesia.<br>Karena di jaman yang semakin modern ini sangat banyak orang yang mulai meninggalkan musik tradisional nusantara,<br> terdapat sebagian orang yang tidak mengenalnya, <br>bahkan tidak mau mengenalnya sama sekali dengan banyak alasan.</p>
+                </div>
+        </div>
+    </div>
+
+    <!-- Audio PIANO -->
+    <audio id="sound-A2" src="samples/A2.ogg" preload="auto"></audio>
+    <audio id="sound-Bb2" src="samples/Bb2.ogg" preload="auto"></audio>
+    <audio id="sound-B2" src="samples/B2.ogg" preload="auto"></audio>
+    <audio id="sound-Ab3" src="samples/Ab3.ogg" preload="auto"></audio>
+    <audio id="sound-A3" src="samples/A3.ogg" preload="auto"></audio>
+    <audio id="sound-Bb3" src="samples/Bb3.ogg" preload="auto"></audio>
+    <audio id="sound-B3" src="samples/B3.ogg" preload="auto"></audio>
+    <audio id="sound-C3" src="samples/C3.ogg" preload="auto"></audio>
+    <audio id="sound-Db3" src="samples/Db3.ogg" preload="auto"></audio>
+    <audio id="sound-D3" src="samples/D3.ogg" preload="auto"></audio>
+    <audio id="sound-Eb3" src="samples/Eb3.ogg" preload="auto"></audio>
+    <audio id="sound-E3" src="samples/E3.ogg" preload="auto"></audio>
+    <audio id="sound-F3" src="samples/F3.ogg" preload="auto"></audio>
+    <audio id="sound-Gb3" src="samples/Gb3.ogg" preload="auto"></audio>
+    <audio id="sound-G3" src="samples/G3.ogg" preload="auto"></audio>
+    <audio id="sound-Ab4" src="samples/Ab4.ogg" preload="auto"></audio>
+    <audio id="sound-A4" src="samples/A4.ogg" preload="auto"></audio>
+    <audio id="sound-Bb4" src="samples/Bb4.ogg" preload="auto"></audio>
+    <audio id="sound-B4" src="samples/B4.ogg" preload="auto"></audio>
+    <audio id="sound-C4" src="samples/C4.ogg" preload="auto"></audio>
+    <audio id="sound-Db4" src="samples/Db4.ogg" preload="auto"></audio>
+    <audio id="sound-D4" src="samples/D4.ogg" preload="auto"></audio>
+    <audio id="sound-Eb4" src="samples/Eb4.ogg" preload="auto"></audio>
+    <audio id="sound-E4" src="samples/E4.ogg" preload="auto"></audio>
+    <audio id="sound-F4" src="samples/F4.ogg" preload="auto"></audio>
+    <audio id="sound-Gb4" src="samples/Gb4.ogg" preload="auto"></audio>
+    <audio id="sound-G4" src="samples/G4.ogg" preload="auto"></audio>
+    <audio id="sound-C5" src="samples/C5.ogg" preload="auto"></audio>
+
+    <!-- THIS PIANO -->
+    <div class="row">
+        <div class="col-md-6" style="background-color: bisque;">
+            <i>
+                <p class="text-center" style="font-family: Verdana, Geneva, Tahoma, sans-serif;color: blue;font-size:20px;padding-bottom:42px;margin-top:40px">"Mulailah Mainkan Tutsnya!"</p>
+            </i>
+        </div>
+    
+
+    <div class="col-md-6" style="background-color: bisque;">
+        <div class="piano">
+            <div class="piano-container">
+                <div class="piano-keys">
+                    <div class="piano-white piano-A2" id="primus">
+                      <p style="text-align: center; margin-top: 80px">6</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Bb2" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-B2" id="primus">
+                      <p style="text-align: center; margin-top: 80px">7</p>
+                    </div>
+                    <div class="piano-white piano-C3" id="primus">
+                        <p style="text-align: center; margin-top: 80px">1</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Db3" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-D3" id="primus">
+                      <p style="text-align: center; margin-top: 80px">2</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Eb3" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-E3" id="primus">
+                      <p style="text-align: center; margin-top: 80px">3</p>
+                    </div>
+                    <div class="piano-white piano-F3" id="primus">
+                      <p style="text-align: center; margin-top: 80px">4</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Gb3" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-G3" id="primus">
+                      <p style="text-align: center; margin-top: 80px">5</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Ab3" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-A3" id="primus">
+                      <p style="text-align: center; margin-top: 80px">6</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Bb3" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-B3" id="primus">
+                      <p style="text-align: center; margin-top: 80px">7</p>
+                    </div>
+                    <div class="piano-white piano-C4" id="primus">
+                      <p style="text-align: center; margin-top: 80px">1</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Db4" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-D4" id="primus">
+                      <p style="text-align: center; margin-top: 80px">2</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Eb4" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-E4" id="primus">
+                      <p style="text-align: center; margin-top: 80px">3</p>
+                    </div>
+                    <div class="piano-white piano-F4" id="primus">
+                      <p style="text-align: center; margin-top: 80px">4</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Gb4" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-G4" id="primus">
+                      <p style="text-align: center; margin-top: 80px">5</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Ab4" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-A4" id="primus">
+                      <p style="text-align: center; margin-top: 80px">6</p>
+                    </div>
+                    <div class="piano-black" id="primus">
+                        <div class="piano-black-raised piano-Bb4" id="primus"></div>
+                    </div>
+                    <div class="piano-white piano-B4" id="primus">
+                      <p style="text-align: center; margin-top: 80px">7</p>
+                    </div>
+                    <div class="piano-white piano-C5" id="primus">
+                      <p style="text-align: center; margin-top: 80px">1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/piano.js"></script>
+</div>
+<!-- PIANO LEBIH KEBAWAH-->
+<center>
+  <div class="row">
+        <div class="col-md-12">
+          <img class="mySlides " src="img/not/bebek.png " style="width:800px; height: 490px ">
+          <img class="mySlides " src="img/not/cicak.jpg " style="width:800px; height: 490px ">
+          <img class="mySlides " src="img/Not/ibu.png " style="width:800px; height: 490px ">
+          <img class="mySlides " src="img/not/Paman-datang.png " style="width:800px; height: 490px ">
+          <img class="mySlides " src="img/not/sayang.jpg " style="width:800px; height: 490px ">
+          <div class="center">
+              <button class="warnatombol" onclick="plusDivs(-1) ">❮ Prev</button>
+              <button class="warnatombol" onclick="plusDivs(1) ">Next ❯</button>
+          </div>
+      </div>
+
+  </div>
+</center>
+
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+        showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides ");
+        var dots = document.getElementsByClassName("demo ");
+        if (n > x.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none ";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-red ", " ");
+        }
+        x[slideIndex - 1].style.display = "block ";
+        dots[slideIndex - 1].className += " w3-red ";
+    }
+</script>
+<!-- scroll back to top-->
+    <a href="#" id="back-to-top" title="Back to top">
+      <i class="glyphicon glyphicon-chevron-up" style="color: black;"></i>
+    </a>
+<!--Footer-->
+<Center>
+  <footer>
+    <div class="footer" style="background-color: #032f3e; padding: 20px;color:white">
+        <h5 style="font-size:15px">Hak Cipta&copy; IntraMusc.com  2018. Team 04</h5>
+        <a href="kontak.html">Hubungi Kami</a>
+    </div>
+  </footer>
+</CENTER>
+
+
+
+<!-- script untuk back to top dari jquery-->
+<script>
+  if ($('#back-to-top').length) {
+    var scrollTrigger = 100, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if (scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show');
+            } else {
+                $('#back-to-top').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+    $('#back-to-top').on('click', function (e) {
+        e.preventDefault();
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+}</script>
+
+
+  <!-- script untuk akhir body dan responsive -->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  </body>
+</html>

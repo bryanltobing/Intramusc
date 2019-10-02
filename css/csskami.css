@@ -1,0 +1,159 @@
+/* more */
+.search
+{
+  background-color:#f3f3f3;
+  width:166px;
+  transition: transform .2s;
+}
+.more
+{
+  color:black;
+  text-decoration: none;
+  margin:10px;
+  font-size: 16px;
+}
+.more:hover
+{
+  color:black;
+  text-decoration: none;
+}
+.search:hover
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+/* button galeri */
+#tombolgaleri
+{
+  transition: transform .2s;
+}
+#tombolgaleri:hover
+{
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+}
+/* css untuk contact us */
+/*testimonia section css*/
+.testimonial{
+    background: url('img/kontak/bg.png') no-repeat center center;
+    background-size: cover;
+
+}
+
+.main_testimonial_area{}
+.main_testimonial_content{}
+.single_testimonial{
+    text-align: center;
+}
+
+.single_testimonial .single_test_thumbnail img{
+    width:170px;
+    margin:0 auto;
+}
+.single_testimonial .single_test_content{
+    margin-top:40px;
+}
+.single_testimonial .single_test_content p{
+    font-size:1.125rem;
+    color:#616161;
+    margin-top:0;
+    font-style: italic;
+}
+.single_testimonial .single_test_content .single_author_content h2{
+    font-size:1.5rem;
+    color:#032f3e;
+    margin-bottom:15px;
+    margin-top:40px;
+
+}
+
+.single_testimonial .single_test_content .single_author_content p{
+    font-size:1.125rem;
+    color:#ab987a;
+    margin-top:0;
+}
+/*service section css*/
+
+.head_title{
+    margin-bottom:110px;
+}
+.head_title h2{
+
+}
+.head_title p{
+
+}
+/*
+Separator
+*/
+.separator {
+    height: 2px;
+    width: 30px;
+    margin:20px auto;
+    background: #AB987A;
+}
+.separator2 {
+    height: 2px;
+    width: 200px;
+    margin:20px 0px;
+    background: #AB987A;
+}
+.separator3 {
+    height: 2px;
+    width: 30px;
+    margin:20px 0px;
+    background: #AB987A;
+}
+html
+{
+  overflow-x:hidden
+}
+/* tombol prev dan next */
+.warnatombol
+{
+  background-color: yellow;
+  border:none;
+  padding: 10px; 
+}
+.warnatombol:hover
+{
+  background-color: gray;
+  color: white;
+}
+#primus:hover
+{
+  background-color: tomato;
+}
+/* untuk tombol back to top*/
+#back-to-top {
+  padding-top: 10px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 30px;
+    background: #ccc;
+    color: #444;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+/*tombol search*/
+#active
+{
+  color:gray;
+}
